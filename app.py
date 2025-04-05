@@ -113,7 +113,7 @@ def get_province_data():
     return provinces
 
 # Load and process data
-df = load_and_clean_data('attached_assets/cleaned_essential_services_data.csv')
+df = load_and_clean_data('cleaned_data.csv')
 provinces = get_province_data()
 
 # Extract relevant data for visualizations
